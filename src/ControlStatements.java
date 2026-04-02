@@ -1,5 +1,5 @@
 public class ControlStatements {
-
+//All control statements
 
     public void loopwhile()
     {
@@ -38,8 +38,8 @@ public class ControlStatements {
     }
     public static void main(String[] args) {
         ControlStatements demo=new ControlStatements();
-//        demo.loopwhile();
-//        demo.loopdowhile();
+       demo.loopwhile();
+       demo.loopdowhile();
         demo.jumpstatementsBreak();
         demo.jumpstatementContinue();
 
